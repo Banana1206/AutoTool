@@ -1,0 +1,11 @@
+# pip
+pip install --upgrade cx_Freeze
+
+# run.py:
+import subprocess
+
+if __name__ == '__main__':
+    subprocess.run("streamlit run app.py")
+
+# terminal:
+cxfreeze -c run.py 
